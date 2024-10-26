@@ -7,65 +7,79 @@
     <title>Personal Profile Page</title>
 </head>
 <body>
+    <!-- beginning of header section -->
     <header>
-        <center><img src="https://picsum.photos/id/338/400/400" alt="profile pic"></center>
+        <!-- profile pic with border -->
+        <center><img src="https://picsum.photos/id/338/400/400" alt="profile pic" style="border:2px solid green;"></center>
+        <!-- intro header -->
         <h1><center>&#128075 Hi, I'm Mazen!</center></h1>
-        <h3><i><center>Web developer in training, major procrastinator, and super dad</center></i></h3>
+        <!-- intro description/brief -->
+        <h3><em><center>Web developer in training, major procrastinator, and super dad</center></em></h3>
     </header>
+    <!-- horizontal line -->
     <hr>
-
+    <!-- Section header -->
     <h2>About Me</h2>
-    <table>
-        <tr>
-            <td style="color:white; background-color: #4B90E2;" >Age</td>
-            <td style="background-color: #F5F5F5;">26</td>
+    <!-- customized table for demographics -->
+    <table style="width: 75%;">
+        <tr style="height: 35px;">
+            <td style="color:white; background-color: #4B90E2; text-align: center;"><b>Age:</b></td>
+            <td style="background-color: #F5F5F5; padding: 10px;">26</td>
         </tr>
-        <tr>
-            <td style="color:white; background-color: #4B90E2;" >Location</td>
-            <td>Fairfax, VA</td>
+        <tr style="height: 35px;">
+            <td style="color:white; background-color: #4B90E2; text-align: center;" ><b>Location:</b></td>
+            <td style="padding: 10px;">Fairfax, VA</td>
         </tr>
-        <tr>
-            <td style="color:white; background-color: #4B90E2;" >Occupation</td>
-            <td style="background-color: #F5F5F5;">Student Developer</td>
+        <tr style="height: 35px;">
+            <td style="color:white; background-color: #4B90E2; text-align: center;" ><b>Occupation:</b></td>
+            <td style="background-color: #F5F5F5; padding: 10px;">Student Developer</td>
         </tr>
     </table>
+    <!-- section header -->
     <h2>Quick Facts:</h2>
+    <!-- unordered list with personal facts -->
     <ul>
         <li>&#128187 Current SDET</li>
         <li>&#128103 Father to a little girl</li>
         <li>&#129504 Aspiring Technologist</li>
         <li>&#127918 Gamer</li>
     </ul>
+    <!-- horizontal line -->
     <hr>
+    <!-- section header -->
     <h2>My Favorites</h2>
-    <table>
-        <thead>
+    <!-- customized table for favorites -->
+    <table style="width: 75%;">
+        <thead style="height: 35px;">
             <tr>
                 <th style="color:white; background-color: #4B90E2;">Category</th>
                 <th style="color:white; background-color: #4B90E2;">Favorites</th>
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td style="color:white; background-color: #4B90E2;">Movies &#128250</td>
-                <td style="background-color: #F5F5F5;">Insert Movie Here</td>
+            <tr style="height: 35px;">
+                <td style="color:white; background-color: #4B90E2; padding: 10px;"><b>Movies</b> &#128250</td>
+                <td style="background-color: #F5F5F5; padding: 10px;">Harry Potter Series</td>
             </tr>
-                <td style="color:white; background-color: #4B90E2;">Food &#127829</td>
-                <td>Insert Food Here</td>
-            <tr>
+            <tr style="height: 35px;">
+                <td style="color:white; background-color: #4B90E2; padding: 10px;"><b>Food</b> &#127829</td>
+                <td style="padding: 10px;">Steak and Cheese, Pizza, Pasta</td>
+            
             </tr>
-                <td style="color:white; background-color: #4B90E2;">Hobbies &#127859</td>
-                <td style="background-color: #F5F5F5;">Insert Hobbies Here</td>
-             <tr>
-
+            <tr style="height: 35px;">
+                <td style="color:white; background-color: #4B90E2; padding: 10px;"><b>Hobbies</b> &#127859</td>
+                <td style="background-color: #F5F5F5; padding: 10px;">Traveling, Soccer, Watching movies</td>
             </tr>
         </tbody>
     </table>
+    <!-- horizontal line -->
     <hr>
+    <!-- Contact section header -->
     <h2>Say Hello!</h2>
+    <!-- Custom form with fieldset and legend using inline css styling -->
     <form action="#">
-    <fieldset>
-        <legend>Contact Form</legend>
+    <fieldset style="background-color: #eeeeee; border: 1px solid rgb(89, 89, 190);">
+        <legend style="background-color: gray; color: white; padding: 5px 10px;">Contact Form</legend>
         <br> <br>
         <label for="name">Name:</label> <br>
         <input type="text" width="25" id="name" name="contact">
@@ -79,12 +93,12 @@
         <button type="submit">Send &#128231</button>
     </fieldset>
     </form>
-
-    <input type="color">
-
+    <!-- horizontal line -->
+    <hr>
+    <!-- beginning of footer section -->
     <footer>
         <p><center>&#128231<a href="mailto:mazen@email.com">mazen@email.com</a></center></p>
-        <p><center>&#128241 @MazTheSpaz</center></p>
+        <p><center>&#128241 <a href="https://www.instagram.com/_MazTheSpaz_">@_MazTheSpaz_</a></center></p>
     </footer>
 </body>
 </html>
